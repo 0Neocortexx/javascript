@@ -96,3 +96,4 @@ function sumNumbers(nums) {
     return nums.n1 + nums.n2;
 }
 console.log(sumNumbers({ n1: 1, n2: 2 }));
+let jsjsjdsd = 12;

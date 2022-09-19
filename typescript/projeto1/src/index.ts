@@ -124,3 +124,4 @@ function sumNumbers(nums: MathFunctionParams) {
     return nums.n1 + nums.n2;
 }
 console.log(sumNumbers({ n1:1 , n2:2 }));
+let jsjsjdsd:number = 12;
