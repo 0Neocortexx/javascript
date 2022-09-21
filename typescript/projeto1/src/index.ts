@@ -30,6 +30,8 @@ const myNumbers: number[] = [1,2,3]
 console.log(myNumbers);
 console.log(myNumbers.length);
 console.log(firstName.toUpperCase())
+
+
 // Adicionar elemento a uma array
 myNumbers.push(5);
 console.log(myNumbers);
