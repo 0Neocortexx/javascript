@@ -97,3 +97,34 @@ function sumNumbers(nums) {
 }
 console.log(sumNumbers({ n1: 1, n2: 2 }));
 let jsjsjdsd = 12;
+// narrowing
+// checagem de tipos 
+function doSometing(info) {
+    if (typeof info === "number") {
+        console.log(`O numero é ${info}`);
+        return;
+    }
+    console.log("não foi passado um numero");
+}
+function showArrayItems(arr) {
+    arr.forEach((item) => {
+        console.log(`Item:  ${item}`);
+    });
+}
+const a1 = [1, 2, 3];
+const a2 = ['a', 'b', 'c'];
+showArrayItems(a1);
+showArrayItems(a2);
+//classes 
+class User {
+    constructor(name, role, isApproved) {
+        this.name = name;
+        this.role = role;
+        this.isApproved = isApproved;
+    
+        //THIS == SELF
+    
+    }
+}
+const zeca = new User("Zeca", "Admin", true);
+console.log(zeca);
