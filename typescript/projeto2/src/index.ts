@@ -10,8 +10,17 @@ $(function () {
         var valor2 = $("#input2").val();
 
         var resultado = (valor1);
+        var dados = JSON.stringify({numero1 : valor1})
         alert(resultado)
         
-    
+        $.ajax ({
+            url: 'http://localhost:5000/cadastrar',
+            type: 'POST',
+            dataType: 'json',
+            contentType: 'application/json',
+            data: dados,
+
+        })
+
     });
 });
