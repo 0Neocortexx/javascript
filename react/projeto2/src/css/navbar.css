@@ -1,0 +1,13 @@
+.nav {
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+.sai-dai-caraio {
+    margin-top: 0%;
+}
+.container-fluid {
+    width: 100%;
+    align-items: center;
+}

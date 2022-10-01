@@ -1,0 +1,17 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 1px solid chartreuse;
+    height: 300px;
+    width: 500px;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}

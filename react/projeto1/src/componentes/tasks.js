@@ -1,9 +1,12 @@
 import React from "react";
 
 const Tasks = ({tasks}) => {
-    console.log(tasks);
-    return <h1>Tasks</h1>;
-
-}
+    return (
+    <>
+    {tasks.map(task => <Tasks />)}
+    
+    </>
+    )
+};
 
 export default Tasks;
