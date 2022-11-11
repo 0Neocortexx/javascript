@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 class="text-center">Exemplo de gráfico</h1>
+  <form onsubmit="return false">
+
+    <div class="mb-3">
+        <label for="dado1">Usuário</label>
+        <input id="dado1" type="text" class="form-control" placeholder="Digite aqui o primeiro dado:">
+    </div>
+    <div class="mb-3">
+        <label for="dado2">Senha</label>
+        <input id="dado2" type="password" class="form-control" placeholder="Digite aqui o segundo dado:">
+    </div>
+    <button id="btSubmit" onclick="inserir()" type="submit" class="btn btn-primary">Submit</button>
+
+</form>
+
+
+    <div class="d-flex justify-content-center border border-secondary">
+      <div id="minhadiv" class="w-50 h-50">
+        <!-- aqui é o local no qual o gráfico vai ser exibido -->
+      </div>
+    </div>
+
+
+    <!-- Botão voltar -->
+    <div class="d-flex justify-content-center mt-2">
+      <ul class="list-group">
+        <li class="list-group-item bg-dark"><a class="text-decoration-none text-warning" href="/">Voltar</a></li>
+      </ul>
+    </div>
+
+
+  <!-- carga da biblioteca javascript de gráficos Plotly -->
+<script src='https://cdn.plot.ly/plotly-2.14.0.min.js'></script>
+<script src="../static/js/pagina1.js"></script>
+<!-- carga de script do bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+</html>
